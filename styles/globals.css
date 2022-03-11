@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.SelectorSeccion{
+  background-color: red;
+  display: flex;
+  list-style: none;
+  gap:.2rem;
+}
+
+.SelectorSeccion li{
+  margin:.5rem ;
+  padding: .2rem;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  cursor: pointer;
+}
+
+.SelectorSeccion li:hover{
+  background-color: white;
+}
+
